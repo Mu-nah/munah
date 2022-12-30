@@ -37,7 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.02);
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -438,13 +438,13 @@ nav ul li a:hover {
 }
 
 .contacts-left p {
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .contacts-left p i {
   color: #ffd633;
-  margin-right: 15px;
-  font-size: 25px;
+  margin-right: 10px;
+  font-size: 19px;
 }
 
 .social-icons {
@@ -685,6 +685,7 @@ nav .menu-btn {
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
   footer {
     justify-content: center;
     padding: 10px 20px;
