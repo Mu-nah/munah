@@ -294,13 +294,13 @@ document.getElementById(tabname).classList.add("active-tab");
   <script>
    const work = document.querySelectorAll('.work')
    const workBtn = document.querySelector('.work-btn')
-var currentImg = 4;
+var currentImg = 3;
 workBtn.addEventListener('click', function() {
-for(var i = currentImg; i<currentImg + 4; i++){
+for(var i = currentImg; i<currentImg + 3; i++){
   if(work[i]){
   work[i].style.display = "block"}
 }
-currentImg += 4
+currentImg += 3
 if(currentImg>work.length) {
   event.target.style.display = "none"
 }
