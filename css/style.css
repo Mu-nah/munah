@@ -314,9 +314,6 @@ nav ul li a:hover {
 .work:nth-child(3) {
   display: block;
 }
-.work:nth-child(4) {
-  display: block;
-}
 
 .layer {
   width: 100%;
